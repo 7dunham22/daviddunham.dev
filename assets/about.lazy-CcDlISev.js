@@ -1,4 +1,4 @@
-import{j as n,c as r}from"./index-B0U1LyYT.js";function o(e){const t={a:"a",h2:"h2",p:"p",...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(t.h2,{children:"About"}),`
+import{j as n,c as r}from"./index-CZfKfexf.js";function o(e){const t={a:"a",h2:"h2",p:"p",...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(t.h2,{children:"About"}),`
 `,n.jsxs(t.p,{children:[`Hi everyone. My name's David Dunham, and I'm currently an software developer\r
 with `,n.jsx(t.a,{href:"https://www.swishdata.com",children:"Swish Data"}),"."]}),`
 `,n.jsx(t.p,{children:`This blog site is currently a work in progress, and I look forward to sharing\r
