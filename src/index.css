@@ -37,3 +37,12 @@ h1 {
   line-height: 1.1;
   margin: 0;
 }
+
+h2 {
+  margin: 0;
+}
+
+#header {
+  border-bottom: 1px solid #ffe3d1;
+  margin-bottom: 20px;
+}
