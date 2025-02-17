@@ -16,6 +16,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100%;
+}
+
 a {
   color: #ffe3d1;
 }
@@ -28,7 +32,6 @@ body {
   margin: 0;
   display: flex;
   justify-content: flex-start;
-  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -45,4 +48,40 @@ h2 {
 #header {
   border-bottom: 1px solid #ffe3d1;
   margin-bottom: 20px;
+}
+
+#index {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  white-space: nowrap;
+}
+
+.indexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.indexDate {
+  flex-shrink: 0;
+}
+
+.dots {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.dots::after {
+  content: "..................................................................................";
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.indexTitle {
+  flex-shrink: 0;
 }
